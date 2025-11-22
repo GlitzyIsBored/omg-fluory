@@ -1,0 +1,44 @@
+$background-colour: rgb(27, 23, 28);
+
+$box-boxColour: rgb(197, 140, 219);
+$box-borderColour: rgb(221, 191, 252);
+
+body {
+    margin: 0;
+    background-color: $background-colour;
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+//main
+#main {
+    border: 2px solid rgb(75 70 74);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#desc {
+    display: flex;
+}
+
+// Boxes
+#box-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 250px;
+    width: 200px;
+    background-color: $box-boxColour;
+    border: solid $box-borderColour 12px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
