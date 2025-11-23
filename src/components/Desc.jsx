@@ -2,16 +2,15 @@ const Desc = () => {
   return (
     <div>
       <h3 style={{ color: "rgb(221, 191, 252)" }}>
-        Heya! This website was entirely written in HTML, CSS and JS by some
-        tired 19 year old girl and who only functions through coffee. I've
-        created this website since I was inspired by those Carrd profiles and
-        decided to make my own! My hobby merely consists of me programming,
-        building websites, drawing or gaming... there isn't much to say about
-        myself other than my personality revolving around programming and most
-        of the video game series I am into. I literally spend most of my time
-        contemplating life (jk). A little about me is that I am a wannabe game
-        dev and a web dev hobbyist but I am leaning more into full stack web
-        development. Tbh idk what im doing with my life by the way i lov coffe.
+        Heya!! This website is the third rewrite of my main web. This time its
+        now written in ReactJS completely from scratch since my previous website
+        kept bothering me. I'm a 19 year old girl who's really into web dev. I
+        wrote this web since i was inspired by those Carrd profiles and decided
+        why not make my own! I cannot really say much other than i am
+        chronically sleepy and spend most of my day doing literally nothing. I
+        play games and sometimes draw and mostly develop some random projects.
+        I'm a wannabe game dev who specialises in front-end web dev and learning
+        backend. Tbh idk what i am doing with my life btw i love coffe
       </h3>
     </div>
   );
