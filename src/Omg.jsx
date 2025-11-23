@@ -1,7 +1,9 @@
-import { SassColor } from "sass";
 import Desc from "./components/Desc";
 import Footer from "./components/Footer";
 import Grid from "./components/Grid";
+
+import icon from "./assets/Main/Icon_V3.png";
+
 import "./Omg.scss";
 
 const Omg = () => {
@@ -17,7 +19,7 @@ const Omg = () => {
       <p style={styles}>yeah</p>
       <section id="desc">
         <Desc />
-        <img src="./src/assets/Main/Icon_V3.png" width={200} height={200} />
+        <img src={icon} width={200} height={200} />
       </section>
       <Grid />
       <Footer />
