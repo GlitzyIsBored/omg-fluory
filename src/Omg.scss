@@ -16,8 +16,8 @@ body {
 
 //main
 #main {
-    border: 2px solid rgb(75 70 74);
-    max-width: 1000px;
+    //border: 2px solid rgb(75 70 74);
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -25,12 +25,13 @@ body {
 
 #desc {
     display: flex;
+    font-family: "Times New Roman", Times, serif;
 }
 
 // Boxes
 #box-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .box {
@@ -38,7 +39,15 @@ body {
     width: 200px;
     background-color: $box-boxColour;
     border: solid $box-borderColour 12px;
-    border-radius: 20px;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+    color: rgb(53, 2, 54);
+    border-radius: 12px;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+#footer {
+    color: dimgrey;
+    padding-top: 4%;
 }
