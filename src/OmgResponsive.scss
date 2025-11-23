@@ -1,0 +1,23 @@
+@use "sass:math";
+$max-width: 1200px;
+
+@mixin test($max-width: true) {
+    @if $max-width {
+        display: block !important;
+    } @else {
+        display: inline-flex;
+    }
+}
+
+@media (max-width: $max-width) {
+    #box-container,
+    #desc {
+        @include test($max-width: true);
+    }
+}
+@media (min-width: $max-width) {
+    #box-container,
+    #desc {
+        @include test($max-width: false);
+    }
+}
