@@ -9,14 +9,15 @@ import "./Omg.scss";
 const Omg = () => {
   const styles = {
     backgroundColor: "white",
-    padding: "1rem",
+    padding: "0.8rem",
     textAlign: "center",
-    display: "grid",
   };
 
   return (
     <section id="main">
-      <p style={styles}>yeah</p>
+      <p id="head" style={styles}>
+        yeah
+      </p>
       <section id="desc">
         <Desc />
         <img src={icon} width={200} height={200} />

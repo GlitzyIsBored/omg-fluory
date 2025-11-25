@@ -20,6 +20,7 @@ body {
 #main {
     //border: 2px solid rgb(75 70 74);
     max-width: 900px;
+    margin: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -36,7 +37,8 @@ body {
 }
 
 .box {
-    height: 250px;
+    height: 240px;
+    margin: 20px;
     width: 200px;
     background-color: $box-boxColour;
     border: solid $box-borderColour 12px;
@@ -44,10 +46,9 @@ body {
     font-size: 20px;
     color: rgb(53, 2, 54);
     border-radius: 12px;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
+//This should be self explanatory
 #footer {
     color: dimgrey;
     padding-top: 4%;

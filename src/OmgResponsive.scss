@@ -1,5 +1,5 @@
 @use "sass:math";
-$max-width: 1200px;
+$max-width: 700px;
 
 @mixin test($max-width: true) {
     @if $max-width {
@@ -13,6 +13,10 @@ $max-width: 1200px;
     #box-container,
     #desc {
         @include test($max-width: true);
+        margin: 50px;
+    }
+    #head {
+        margin: 50px;
     }
 }
 @media (min-width: $max-width) {
