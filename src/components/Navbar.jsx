@@ -1,6 +1,6 @@
-import Youtube from "../src/assets/Icons/YouTube-Symbol.png";
-import Github from "../src/assets/Icons/GitHub-Symbol.png";
-import Pinterest from "../src/assets/Icons/Pinterest-Symbol.png";
+import Youtube from "../assets/Icons/YouTube-Symbol.png";
+import Github from "../assets/Icons/GitHub-Symbol.png";
+import Pinterest from "../assets/Icons/Pinterest-Symbol.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee, faBars } from "@fortawesome/free-solid-svg-icons";
