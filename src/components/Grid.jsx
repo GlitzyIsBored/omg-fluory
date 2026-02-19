@@ -1,4 +1,3 @@
-import icon from "../assets/Icons/Youtube-Symbol.png";
 const Grid = () => {
   return (
     <section id="box-container">
