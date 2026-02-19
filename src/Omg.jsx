@@ -1,11 +1,12 @@
 import Desc from "./components/Desc";
 import Footer from "./components/Footer";
 import Grid from "./components/Grid";
-
+import Navbar from "./components/Navbar";
+// --------------------------------------
 import icon from "./assets/Main/Icon_V3.png";
-
+// --------------------------------------
 import "./Omg.scss";
-
+// --------------------------------------
 const Omg = () => {
   const styles = {
     backgroundColor: "white",
@@ -14,17 +15,20 @@ const Omg = () => {
   };
 
   return (
-    <section id="main">
-      <p id="head" style={styles}>
-        yeah
-      </p>
-      <section id="desc">
-        <Desc />
-        <img src={icon} width={200} height={200} />
+    <div>
+      <Navbar />
+      <section id="main">
+        <p id="head" style={styles}>
+          yeah
+        </p>
+        <section id="desc">
+          <Desc />
+          <img src={icon} width={200} height={200} />
+        </section>
+        <Grid />
+        <Footer />
       </section>
-      <Grid />
-      <Footer />
-    </section>
+    </div>
   );
 };
 

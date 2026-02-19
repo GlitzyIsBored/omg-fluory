@@ -16,6 +16,25 @@ body {
     text-align: center;
 }
 
+//navbar
+ul {
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+
+li {
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 //main
 #main {
     //border: 2px solid rgb(75 70 74);
@@ -30,22 +49,21 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
-// Boxes
+// grids
 #box-container {
     display: flex;
     justify-content: space-around;
-}
-
-.box {
-    height: 240px;
-    margin: 20px;
-    width: 200px;
-    background-color: $box-boxColour;
-    border: solid $box-borderColour 12px;
-    font-family: Impact, "Arial Narrow Bold", sans-serif;
-    font-size: 20px;
-    color: rgb(53, 2, 54);
-    border-radius: 12px;
+    .box {
+        height: 240px;
+        margin: 20px;
+        width: 200px;
+        background-color: $box-boxColour;
+        border: solid $box-borderColour 12px;
+        font-family: Impact, "Arial Narrow Bold", sans-serif;
+        font-size: 20px;
+        color: rgb(53, 2, 54);
+        border-radius: 12px;
+    }
 }
 
 //This should be self explanatory

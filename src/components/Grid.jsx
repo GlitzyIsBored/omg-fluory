@@ -1,3 +1,4 @@
+import icon from "../assets/Icons/Youtube-Symbol.png";
 const Grid = () => {
   return (
     <section id="box-container">
@@ -16,11 +17,11 @@ const Grid = () => {
         <p>Coffee</p>
       </div>
       <div class="box box-3">
-        <p style={{ fontWeight: "bold" }}>Coffee</p>
-        <p>Coffee</p>
-        <p>Coffee</p>
-        <p>Coffee</p>
-        <p>Coffee</p>
+        <p style={{ fontWeight: "bold" }}>Emacs</p>
+        <p>is</p>
+        <p>a</p>
+        <p>superior</p>
+        <p>text editor</p>
       </div>
     </section>
   );

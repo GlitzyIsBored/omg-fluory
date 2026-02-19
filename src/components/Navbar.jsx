@@ -1,11 +1,29 @@
-function ComponentName() {
-  return (
-    <div>
-      <ul>
-        <li> </li>
-      </ul>
-    </div>
-  );
-}
+import Youtube from "../assets/Icons/Youtube-Symbol.png";
+import Github from "../assets/Icons/Github-Symbol.png";
+import Pinterest from "../assets/Icons/Pinterest-Symbol.png";
 
-export default ComponentName;
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faBars } from "@fortawesome/free-solid-svg-icons";
+
+const Navbar = () => {
+  return (
+    <nav id="Navbar">
+      <ul>
+        <li>
+          <FontAwesomeIcon icon={faBars} fontSize={42} />
+        </li>
+        <li>
+          <img src={Youtube} width={42} height={42} />
+        </li>
+        <li>
+          <img src={Github} width={42} height={42} />{" "}
+        </li>
+        <li>
+          <img src={Pinterest} width={42} height={42} />
+        </li>
+      </ul>
+    </nav>
+  );
+};
+// planning: hovering over the icon provides a little descriptuion
+export default Navbar;
