@@ -1,5 +1,5 @@
-import Youtube from "../assets/Icons/Youtube-Symbol.png";
-import Github from "../assets/Icons/Github-Symbol.png";
+import Youtube from "../assets/Icons/YouTube-Symbol.png";
+import Github from "../assets/Icons/GitHub-Symbol.png";
 import Pinterest from "../assets/Icons/Pinterest-Symbol.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
