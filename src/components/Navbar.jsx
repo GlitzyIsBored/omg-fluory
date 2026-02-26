@@ -4,8 +4,11 @@ import Pinterest from "../assets/Icons/Pinterest-Symbol.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee, faBars } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [toggle, setToggle] = useState(false);
+
   return (
     <nav id="Navbar">
       <ul>
@@ -13,13 +16,25 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBars} fontSize={42} />
         </li>
         <li>
-          <img src={Youtube} width={42} height={42} />
+          <a
+            href="https://youtu.be/1eOaI6wSP5E?si=XyD4-UXltA2BUY6d"
+            target="_blank"
+          >
+            <img src={Youtube} width={42} height={42} />
+          </a>
         </li>
         <li>
-          <img src={Github} width={42} height={42} />{" "}
+          <a href="https://github.com/GlitzyIsBored" target="_blank">
+            <img src={Github} width={42} height={42} />
+          </a>
         </li>
         <li>
-          <img src={Pinterest} width={42} height={42} />
+          <a
+            href="https://au.pinterest.com/pin/591027151140171323/"
+            target="_blank"
+          >
+            <img src={Pinterest} width={42} height={42} />
+          </a>
         </li>
       </ul>
     </nav>
