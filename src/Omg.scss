@@ -7,7 +7,7 @@ $box-borderColour: rgb(221, 191, 252);
 
 body {
     margin: 0;
-    background-color: rgb(27, 23, 28);
+    background-color: $background-colour;
     height: 100vh;
     width: 100%;
     display: inline-flex;
