@@ -1,4 +1,4 @@
-@import "OmgResponsive.scss";
+@use "OmgResponsive";
 
 $background-colour: rgb(27, 23, 28);
 
@@ -29,10 +29,25 @@ ul {
     position: fixed;
 }
 
+.list-active {
+    background-color: transparent;
+    img {
+        display: none;
+    }
+    #three-bar {
+        color: white;
+    }
+}
+
 li {
     padding: 5px;
     margin-left: 10px;
     margin-right: 10px;
+    display: block;
+}
+
+.nav-toggle {
+    display: none;
 }
 
 //main

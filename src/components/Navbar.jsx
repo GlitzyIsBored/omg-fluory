@@ -4,16 +4,27 @@ import Pinterest from "../assets/Icons/Pinterest-Symbol.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee, faBars } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false);
+  const test = () => {
+    //alert("testing omg");
+    var thingNav = document.querySelectorAll(".active");
+
+    thingNav.forEach((thingNav) => {
+      thingNav.classList.toggle("list-active");
+    });
+  };
 
   return (
     <nav id="Navbar">
-      <ul>
+      <ul className="active">
         <li>
-          <FontAwesomeIcon icon={faBars} fontSize={42} />
+          <FontAwesomeIcon
+            id="three-bar"
+            icon={faBars}
+            fontSize={42}
+            onClick={test}
+          />
         </li>
         <li>
           <a
