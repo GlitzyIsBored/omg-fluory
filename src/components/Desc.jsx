@@ -20,7 +20,7 @@ const Desc = () => {
         now written in ReactJS completely from scratch since my previous website
         kept bothering me. I'm a {timeBetween} year old girl who's really into
         web dev. I wrote this web since i was inspired by those Carrd profiles
-        and decided why not make my own! I cannot really say much other than i
+        and decided why not make my own! I cannot really say much other than I
         am chronically sleepy and spend most of my day doing literally nothing.
         I play games and sometimes draw and mostly develop some random projects.
         I'm a wannabe game dev who specialises in front-end web dev and learning
