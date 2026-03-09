@@ -16,7 +16,7 @@ const Desc = () => {
   return (
     <div>
       <h3 style={{ color: "rgb(221, 191, 252)" }}>
-        Heya!! This website is the third rewrite of my main web. This time its
+        Heya!! This website is the third rewrite of my main web! This time its
         now written in ReactJS completely from scratch since my previous website
         kept bothering me. I'm a {timeBetween} year old girl who's really into
         web dev. I wrote this web since i was inspired by those Carrd profiles
