@@ -24,6 +24,7 @@ const Navbar = () => {
             icon={faBars}
             fontSize={42}
             onClick={test}
+            color="#1B171C"
           />
         </li>
         <li>
